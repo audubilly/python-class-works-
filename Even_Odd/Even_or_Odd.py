@@ -5,4 +5,4 @@ def even_or_odd(arg1):
         print("number is odd")
 
 
-even_or_odd(8)
+even_or_odd(12)
