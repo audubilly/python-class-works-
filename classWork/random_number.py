@@ -2,13 +2,12 @@ import random
 
 
 def guess_game():
-
     player_name = input("Enter your Name: ")
     number_0f_guesses = 0
 
     print(player_name + " guess a number between 1 and 10")
 
-    while number_0f_guesses < 5 :
+    while number_0f_guesses < 5:
         number = random.randint(1, 10)
         try:
             guess = int(input())
